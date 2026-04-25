@@ -34,7 +34,7 @@ The project achieved all its core objectives. A custom dataset of 600 images was
 The YOLOv8 object detection algorithm was selected as the core model due to its proven balance between detection speed and accuracy, making it particularly suitable for real-time smart campus applications. The model was trained using Google Colab, with the training process taking approximately 9 hours to complete 100 epochs. The trained model successfully detects seats, classifies them as available or occupied, and outputs bounding boxes with confidence scores.
 
 -Key Findings: 
-Several important findings emerged from this project:
+Several important findings emerged from this project mentiond below:
 . First, YOLOv8 proved to be an excellent choice for this use case. Despite the computational demands (9 hours of training), the resulting model demonstrates strong detection capabilities that would support real-time inference in a production environment. The trade-off between training time and inference speed is justified for this application.
 
 . Second, dataset quality directly impacts model performance. By collecting 600 diverse images with balanced class representation (300 available, 300 occupied), the model received adequate exposure to both states under various conditions. The inclusion of multiple lighting conditions and angles helped the model generalize beyond the specific training examples.
