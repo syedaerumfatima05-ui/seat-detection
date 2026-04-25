@@ -1,0 +1,5 @@
+train: C:/Users/marsa/OneDrive/Desktop/seat-detection/images/train
+val: C:/Users/marsa/OneDrive/Desktop/seat-detection/images/val
+
+nc: 2
+names: ['available', 'occupied']
